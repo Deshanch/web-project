@@ -1,0 +1,20 @@
+{
+  "name": "node_web_project",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "web-project"
+  },
+  "keywords": [
+    "abc123"
+  ],
+  "author": "deshan",
+  "license": "ISC"
+}
