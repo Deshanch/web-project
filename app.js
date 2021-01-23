@@ -8,9 +8,9 @@ const app = express();
 // connect to mongodb & listen for requests
 const dbURI = "mongodb+srv://deshan:asrc5964@nodetuts.8fonc.mongodb.net/node-tuts?retryWrites=true&w=majority";
 // this is connecting to the local host 
-mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
-    .then(result => app.listen(3000)) //if the database in connected sucessfully then listen to port 3000
-    .catch(err => console.log(err)); //else give an error
+//mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
+    //.then(result => app.listen(3000)) //if the database in connected sucessfully then listen to port 3000
+    //.catch(err => console.log(err)); //else give an error
 // this is connecting to the remote host
 const PORT = process.env.PORT || 3000
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
